@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.name{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+   
+}
+.buttons{
+    width: 60%;
+    border: 1px solid black;
+    justify-self: center;
+    border-radius: 40px;
+   
+}
+.line1{
+    display: flex;
+    justify-content:space-around;
+    padding: 3vh;
+}
+.line2{
+    display: flex;
+    justify-content:space-around;
+    padding: 3vh;
+}
+
+.black, .aqua, .brown, .darkblue{
+    width: 40vh;
+    border-radius: 20px;
+    height: 25vh;
+    background-color: red;
+}
+.black{
+    background-color: black;
+}
+.aqua{
+    background-color: aqua;
+}
+.brown{
+    background-color: brown;
+}
+.darkblue{
+    background-color: darkblue;
+}
+.blink{
+    background-color: white;
+}
+.user{
+    background-color: purple;
+}
